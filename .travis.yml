@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+    - stable
+deploy:
+    provider: heroku
+    api_key:
+        secure:
+            put: eQw72TGmdbivMV7MVG5Ob9sJ1o/46ARC7eCfa9yJYI2E15O/cTzxufwdwLslKATf03/TszDoDD3bm1TNSmKdx83hIl9LE4YKuF+3aEQKgjgZ7dFhoy840bzQf81dvYiyt/AUUxXRfxt4TLqgCxvLBc+QZ7fDbbTlHr9a7NSIYU6QxFFF2ycIp1mbqNxsXCnU1eHuy2Ffs67bYgqBpWz5yi0BY6oMj61IEg1Y/vHQUtQyG5+5TLr4+4S8xN1iPgY/WoqO2KmACmc9gGGyWZfvC+r94YX5ECRwNTGTlsAmu8xVCCyrRiVx12+7YiGjmKAj1NILro0nWMD+ac5H+NPPkJltZrACLRtl6oH/qs1eYjYRaEqibyPYlr/pFler4SHRAyL6vmk8QGtCwwrSIhH3ypCx0GsJWOzHOksbI5QeoEZwPV0nrolpHkgd8YvhBusuYgf9wJCKx310UL6dgXrZvDxfmGgaRzrbhv5UwTMdd6ADwiGXQgMoSTBKQOwXX3pStUBVSoUKRsAjnsGG1kSo6hZATsumQHMagfR5t6GWcEEWX3lSsBglkvGMHU/GUcTcQObA5XQQtSaZX/tjYkrIPp8R/fcqgqqRAYSk9FUE0T32EyT6PaYAxgSyLkwfkUmeCsb/7psUJIGu4HCAW1Gkw03dYuBrhUMBxZs/h37yahE=
+    app:
+        name: glacial-lowlands-10247
+    on:
+        repo: bkarulas/travisgithubheroku
